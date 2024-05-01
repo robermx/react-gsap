@@ -4,8 +4,21 @@
   align-items: center;
   height: 100vh;
   width: 100%;
-  background-color: #3c3c3c;
-  h2 {
-    color: white;
+  background-color: #3a3838;
+  gap: 2rem;
+
+  .box {
+    height: 100px;
+    width: 100px;
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    p {
+      color: #3a3838;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
   }
 }
